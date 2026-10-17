@@ -18,7 +18,7 @@ Develop a deeper understanding of the mathematics and algorithms behind Machine 
 - Chain rule
 - Logarithms
 
-📂 [Explore Math Fundamentals](01-math-fundamentals/)
+📂 [Explore Math Fundamentals](https://github.com/UUbaidd/ml-foundations-from-sratch)
 
 ## 🛠️ Learning Methodology
 
