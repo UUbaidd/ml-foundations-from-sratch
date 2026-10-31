@@ -1,11 +1,21 @@
 
 # 🧮 Machine Learning Foundations From Scratch
 
-Building a strong foundation in Machine Learning by understanding mathematical concepts, solving problems manually, and implementing operations using Python and NumPy.
+A collection of my implementations and mathematical explorations of machine learning algorithms, starting from fundamental principles and progressing to established machine learning and deep learning libraries..
 
 ## 🎯 Objective
 
-Develop a deeper understanding of the mathematics and algorithms behind Machine Learning, rather than relying only on high-level libraries.
+My goal is to understand how machine learning algorithms work internally, including their mathematical foundations, optimisation methods, and practical implementations.
+
+For each algorithm, I aim to:
+
+- Study and understand the underlying mathematics.
+
+- Implement the algorithm from scratch using Python and NumPy.
+
+- Implement the same algorithm using established libraries such as Scikit-learn or PyTorch, where appropriate.
+
+- Compare the implementations and document the key concepts.
 
 ## 📚 Topics
 
@@ -33,6 +43,8 @@ Develop a deeper understanding of the mathematics and algorithms behind Machine 
 - Python
 - NumPy
 - Jupyter Notebook
+
+Additional libraries will be introduced as the repository develops.
 
 ## 🚀 Progress
 
