@@ -1,5 +1,5 @@
 
-# 🧮 Machine Learning Foundations From Scratch
+# 🧮 Machine Learning/Deep Learning Foundations From Scratch
 
 A collection of my implementations and mathematical explorations of machine learning algorithms, starting from fundamental principles and progressing to established machine learning and deep learning libraries..
 
