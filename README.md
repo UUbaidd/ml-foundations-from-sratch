@@ -28,7 +28,7 @@ For each algorithm, I aim to:
 - Chain rule
 - Logarithms
 
-📂 [Explore Math Fundamentals](https://github.com/UUbaidd/ml-foundations-from-sratch)
+📂 [Explore Math Fundamentals](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main)
 
 ## 🛠️ Learning Methodology
 
