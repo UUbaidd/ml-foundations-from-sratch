@@ -1,25 +1,29 @@
 
-# 🧮 Machine Learning Foundations From Scratch
+# 🧮 Machine Learning & Deep Learning Foundations — From Scratch
 
-A collection of my implementations and mathematical explorations of machine learning algorithms, starting from fundamental principles and progressing to established machine learning and deep learning libraries..
+A collection of my implementations and mathematical explorations of Machine Learning and Deep Learning algorithms, starting from fundamental principles and progressing to established libraries such as Scikit-learn and PyTorch.
+
+The focus of this repository is not just to use algorithms, but to understand the mathematics, logic, and optimisation techniques behind them.
 
 ## 🎯 Objective
 
-My goal is to understand how machine learning algorithms work internally, including their mathematical foundations, optimisation methods, and practical implementations.
+My goal is to develop a strong understanding of how Machine Learning and Deep Learning algorithms work internally, from mathematical foundations to practical implementations.
 
 For each algorithm, I aim to:
 
-- Study and understand the underlying mathematics.
+1. Understand the underlying mathematical concepts and equations.
+2. Derive important formulas and understand their reasoning.
+3. Implement the algorithm from scratch using Python and NumPy.
+4. Implement the same algorithm using established libraries such as Scikit-learn or PyTorch, where appropriate.
+5. Compare implementations, evaluate results, and document key findings.
 
-- Implement the algorithm from scratch using Python and NumPy.
-
-- Implement the same algorithm using established libraries such as Scikit-learn or PyTorch, where appropriate.
-
-- Compare the implementations and document the key concepts.
-
-## 📚 Topics
+## 📚 Repository Structure
 
 ### 1. Mathematics Fundamentals
+
+Mathematical foundations explored through manual calculations, Python implementations, and NumPy verification.
+
+**Topics include:**
 
 - Vectors and matrices
 - Matrix multiplication and transpose
@@ -27,25 +31,65 @@ For each algorithm, I aim to:
 - Derivatives and partial derivatives
 - Chain rule
 - Logarithms
+- Additional mathematical concepts as required
 
-📂 [Explore Math Fundamentals](https://github.com/UUbaidd/ml-foundations-from-sratch)
+📂 [Explore Mathematics Fundamentals](./math-fundamentals/)
+
+### 2. Machine Learning Algorithms
+
+Implementing Machine Learning algorithms from scratch to understand their internal mechanics, followed by implementations using Scikit-learn.
+
+| Algorithm | From Scratch | Scikit-learn |
+|---|---|---|
+| Linear Regression | ✅ Completed | 🔜 Planned |
+| Logistic Regression | 🔜 Planned | 🔜 Planned |
+| Decision Trees | 🔜 Planned | 🔜 Planned |
+| K-Nearest Neighbours | 🔜 Planned | 🔜 Planned |
+
+📂 [Explore Machine Learning](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main)
+
+### 3. Deep Learning
+
+Exploring neural networks and deep learning architectures, starting with NumPy implementations and progressing to frameworks such as PyTorch.
+
+Topics and implementations will be added as learning progresses.
 
 ## 🛠️ Learning Methodology
 
-1. Study and understand the mathematical concept.
-2. Solve exercises manually on paper.
-3. Implement the operation using pure Python.
-4. Verify the results with NumPy where applicable.
-5. Test different examples and document findings.
+### Mathematical Foundations
+
+1. Study the mathematical concept.
+2. Derive equations and solve exercises manually.
+3. Implement mathematical operations using Python.
+4. Verify results with NumPy where applicable.
+5. Explore different examples to strengthen understanding.
+
+### Algorithm Development
+
+1. Understand the problem and algorithm.
+2. Study the mathematical foundations.
+3. Implement the algorithm from scratch.
+4. Test and evaluate the implementation.
+5. Implement the same algorithm using an established library.
+6. Compare results and document observations.
 
 ## 💻 Technologies
 
+**Currently used:**
+
 - Python
 - NumPy
+- Matplotlib
 - Jupyter Notebook
+- Scikit-learn
+- PyTorch
 
-Additional libraries will be introduced as the repository develops.
+Additional tools and libraries will be introduced as the repository develops.
 
 ## 🚀 Progress
 
-This repository is actively being developed as part of my Machine Learning engineering journey.
+This repository is an ongoing record of my Machine Learning engineering learning journey.
+
+**Current focus:** Building a strong foundation in Machine Learning by understanding and implementing algorithms from scratch before progressing to established libraries and more advanced techniques.
+
+Each algorithm will be added as it is developed, tested, and documented.
