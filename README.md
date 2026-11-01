@@ -46,7 +46,7 @@ Implementing Machine Learning algorithms from scratch to understand their intern
 | Decision Trees | 🔜 Planned | 🔜 Planned |
 | K-Nearest Neighbours | 🔜 Planned | 🔜 Planned |
 
-📂 [Explore Machine Learning](./machine-learning/)
+📂 [Explore Machine Learning](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main)
 
 ### 3. Deep Learning
 
