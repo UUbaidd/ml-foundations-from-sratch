@@ -9,9 +9,15 @@ def load_data(path):
 class DataValidationError(Exception):
     pass
 
-def validate_schema(data,required_col):
+def validate_schema(data,required_col, label_column = None, allowed_labels = None):
     if not isinstance(data,pd.DataFrame):
         raise ValueError("Data not in proper format")
+
+    if allowed_labels is not None:
+        for col in data[label_column]:
+            if col not in allowed_labels:
+                raise DataValidationError(f"{col} not allowed")
+    
     col = data.columns
 
     for column in required_col:
@@ -19,11 +25,12 @@ def validate_schema(data,required_col):
             raise DataValidationError(f"Required column {column } is missing")
     
 
-        if not pd.api.types.is_numeric_dtype(data[column]):
+        if column != label_column and not pd.api.types.is_numeric_dtype(data[column]):
             raise DataValidationError(f"Column {column} dtype is not correct")
 
         if data[column].isna().any():
             raise DataValidationError(f"Column {column} has missing value")
+        
 
 # df = load_data("Fitness_data.csv")
 data = {
