@@ -33,7 +33,7 @@ Mathematical foundations explored through manual calculations, Python implementa
 - Logarithms
 - Additional mathematical concepts as required
 
-📂 [Explore Mathematics Fundamentals ](./math-fundamentals/)
+📂 [Explore Mathematics Fundamentals ](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main/math-fundamentals)
 
 ### 2. Machine Learning Algorithms
 
