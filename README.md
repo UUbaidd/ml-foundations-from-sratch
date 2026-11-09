@@ -33,7 +33,7 @@ Mathematical foundations explored through manual calculations, Python implementa
 - Logarithms
 - Additional mathematical concepts as required
 
-📂 [Explore Mathematics Fundamentals (comming soon)](./math-fundamentals/)
+📂 [Explore Mathematics Fundamentals ](./math-fundamentals/)
 
 ### 2. Machine Learning Algorithms
 
@@ -41,7 +41,7 @@ Implementing Machine Learning algorithms from scratch to understand their intern
 
 | Algorithm | From Scratch | Scikit-learn |
 |---|---|---|
-| Linear Regression | ✅ Completed | 🔜 Planned |
+| Linear Regression | ✅ Completed | ✅ Completed |
 | Logistic Regression | 🔜 Planned | 🔜 Planned |
 | Decision Trees | 🔜 Planned | 🔜 Planned |
 | K-Nearest Neighbours | 🔜 Planned | 🔜 Planned |
