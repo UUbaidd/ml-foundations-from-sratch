@@ -5,6 +5,53 @@ A collection of my implementations and mathematical explorations of Machine Lear
 
 The focus of this repository is not just to use algorithms, but to understand the mathematics, logic, and optimisation techniques behind them.
 
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/UUbaidd/ml-foundations-from-sratch.git
+cd ml-foundations-from-sratch
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python3 -m venv .venv
+```
+
+Activate it on macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+On Windows:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### 3. Install Dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run Unit Tests
+
+```bash
+python -m pytest OOP/data_Validation/test_data_loader.py -v
+```
+
+### 5. Explore the Notebooks
+
+Open `Data_Exploration` in VS Code, select the project's `.venv` Python kernel, and run the EDA notebook.
+
+**Note:** Notebook paths may require running from their respective folders.
+
+
 ## 🎯 Objective
 
 My goal is to develop a strong understanding of how Machine Learning and Deep Learning algorithms work internally, from mathematical foundations to practical implementations.
