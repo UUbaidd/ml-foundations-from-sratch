@@ -51,6 +51,12 @@ Open `Data_Exploration` in VS Code, select the project's `.venv` Python kernel, 
 
 **Note:** Notebook paths may require running from their respective folders.
 
+## System Architecture
+
+```mermaid
+flowchart LR
+    A --> B
+```
 
 ## 🎯 Objective
 
