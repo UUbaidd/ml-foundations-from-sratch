@@ -59,6 +59,8 @@ A["CSV Dataset"] --> B["Data Loader"]
 B --> C["Schema Validator"]
 C -->|No| D["DataValidationError"]
 C -->|Yes| E["Continue to EDA"]
+F["Pytest"] --> |Tests| B
+F["Pytest"] --> |Tests| C
 ```
 
 ## 🎯 Objective
