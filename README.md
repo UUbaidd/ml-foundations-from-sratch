@@ -55,7 +55,8 @@ Open `Data_Exploration` in VS Code, select the project's `.venv` Python kernel, 
 
 ```mermaid
 flowchart LR
-    A --> B
+    A["CSV Dataset"] --> B["Data Loader"]
+    B --> C["Schema Validator"]
 ```
 
 ## 🎯 Objective
