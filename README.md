@@ -61,6 +61,13 @@ C -->|No| D["DataValidationError"]
 C -->|Yes| E["Continue to EDA"]
 F["Pytest"] --> |Tests| B
 F["Pytest"] --> |Tests| C
+Subgraph ML["Machine Learning"]
+  G["Linear Regression (From Scratch)"]
+end
+subgraph Math["Mathematics Fundamentals"]
+  H["Vector and Matrices"]
+end
+
 ```
 
 ## 🎯 Objective
