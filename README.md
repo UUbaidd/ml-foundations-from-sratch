@@ -64,7 +64,7 @@ F["Pytest"] --> |Tests| C
 Subgraph ML["Machine Learning"]
   G["Linear Regression (From Scratch)"]
 end
-subgraph Math["Mathematics Fundamentals"]
+Subgraph Math["Mathematics Fundamentals"]
   H["Vector and Matrices"]
 end
 
