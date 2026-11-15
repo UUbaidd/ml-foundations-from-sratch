@@ -55,7 +55,7 @@ Open `Data_Exploration` in VS Code, select the project's `.venv` Python kernel, 
 
 ```mermaid
 flowchart LR
-    A["CSV Dataset"] --> B["Data Loader"] --> C["Schema Validator"] 
+    A["CSV Dataset"] --> B["Data Loader"] --> C["Schema Validator"] C -->|No| D["DataValidationError"]C -->|Yes| E["Continue to EDA"]
 ```
 
 ## 🎯 Objective
