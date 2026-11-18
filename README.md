@@ -1,4 +1,4 @@
-
+ 
 # 🧮 Machine Learning & Deep Learning Foundations — From Scratch
 
 A collection of my implementations and mathematical explorations of Machine Learning and Deep Learning algorithms, starting from fundamental principles and progressing to established libraries such as Scikit-learn and PyTorch.
