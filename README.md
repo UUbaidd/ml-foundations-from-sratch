@@ -1,10 +1,129 @@
- 
-# 🧮 Machine Learning & Deep Learning Foundations — From Scratch
 
-A collection of my implementations and mathematical explorations of Machine Learning and Deep Learning algorithms, starting from fundamental principles and progressing to established libraries such as Scikit-learn and PyTorch.
+# 🧮 Machine Learning & Deep Learning — From Scratch
 
-The focus of this repository is not just to use algorithms, but to understand the mathematics, logic, and optimisation techniques behind them.
+A collection of my Machine Learning implementations and mathematical foundations, focused on understanding **how algorithms work internally**, rather than simply using libraries.
 
+I explore concepts through mathematical derivations, handwritten problem-solving, Python implementations, and numerical verification, progressing towards practical Machine Learning Engineering.
+
+## 🎯 Objective
+
+To develop strong mathematical, programming, and problem-solving foundations for Machine Learning Engineering.
+
+My learning approach:
+
+1. Understand the mathematics and reasoning behind each concept.
+2. Implement algorithms and mathematical operations from scratch.
+3. Verify solutions using NumPy or established ML libraries.
+4. Test, evaluate, and document implementations.
+
+
+## 📚 Projects & Progress
+
+Click on a category to explore completed projects, implementations, and documentation.
+
+<details>
+<summary><strong>📐 Mathematics Fundamentals</strong></summary>
+
+<br>
+
+| Topic | Status |
+|---|---|
+| Vectors, Matrices & Linear Algebra | ✅ Completed exercises |
+| Eigenvalues & Eigenvectors | ✅ Implemented & Verified |
+| Derivatives & Chain Rule | 🔜 Planned |
+
+📂 [Explore Mathematics Fundamentals](math-fundamentals/)
+
+</details>
+
+<details>
+<summary><strong>🤖 Machine Learning Algorithms</strong></summary>
+
+<br>
+
+| Project | Status |
+|---|---|
+| Linear Regression — From Scratch | ✅ Completed |
+| Linear Regression — Scikit-learn | ✅ Completed |
+| Logistic Regression | 🔜 Planned |
+| Decision Trees | 🔜 Planned |
+
+📂 [Explore Machine Learning](machine-learning/)
+
+</details>
+
+<details>
+<summary><strong>📊 Data Exploration</strong></summary>
+
+<br>
+
+| Project | Status |
+|---|---|
+| Titanic Dataset — Exploratory Data Analysis | ✅ Completed |
+
+📂 [Explore Data Exploration](Data_Exploration/)
+
+</details>
+
+<details>
+<summary><strong>🧪 Software Engineering & Testing</strong></summary>
+
+<br>
+
+| Project | Status |
+|---|---|
+| Data Loading | ✅ Implemented |
+| Schema Validation | ✅ Implemented |
+| Pytest Unit Tests | ✅ Implemented |
+
+📂 [Explore Data Validation & Testing](OOP/data_Validation/)
+
+</details>
+
+<details>
+<summary><strong>🧠 Deep Learning</strong></summary>
+
+<br>
+
+| Project | Status |
+|---|---|
+| Neural Networks from Scratch | 🔜 Planned |
+| PyTorch Implementations | 🔜 Planned |
+
+</details>
+
+### Explore the Projects
+
+- 📐 [Mathematics Fundamentals](math-fundamentals/) — Handwritten solutions, Python implementations, and NumPy verification.
+- 🤖 [Machine Learning](machine-learning/) — ML algorithms built from scratch and compared with established libraries.
+- 📊 [Data Exploration](Data_Exploration/) — Exploratory data analysis and dataset investigation.
+- 🧪 [Data Validation & Testing](OOP/data_Validation/) — Data loading, schema validation, and automated testing.
+
+Each project contains its own implementation and, where available, detailed README documentation.
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart LR
+    A["CSV Dataset"] --> B["Data Loader"]
+    B --> C{"Schema Valid?"}
+    C -->|No| D["DataValidationError"]
+    C -->|Yes| E["EDA"]
+
+    F["Pytest"] -.->|Tests| B
+    F -.->|Tests| C
+
+    subgraph ML["Machine Learning"]
+        G["Linear Regression — From Scratch"]
+    end
+
+    subgraph MATH["Mathematics Fundamentals"]
+        H["Vectors & Matrices"]
+        I["Eigenvalues & Eigenvectors"]
+    end
+```
+
+*Conceptual representation of repository components. Individual projects are not necessarily connected in one automated pipeline.*
 
 ## 🚀 Getting Started
 
@@ -21,13 +140,13 @@ cd ml-foundations-from-sratch
 python3 -m venv .venv
 ```
 
-Activate it on macOS/Linux:
+Activate on macOS/Linux:
 
 ```bash
 source .venv/bin/activate
 ```
 
-On Windows:
+Activate on Windows:
 
 ```powershell
 .venv\Scripts\Activate.ps1
@@ -45,116 +164,14 @@ python -m pip install -r requirements.txt
 python -m pytest OOP/data_Validation/test_data_loader.py -v
 ```
 
-### 5. Explore the Notebooks
+Explore individual project folders for implementations, results, and documentation.
 
-Open `Data_Exploration` in VS Code, select the project's `.venv` Python kernel, and run the EDA notebook.
+## 🛠️ Technologies
 
-**Note:** Notebook paths may require running from their respective folders.
+**Python · NumPy · Pandas · Matplotlib · Scikit-learn · Jupyter Notebook · Pytest**
 
-## System Architecture
+## 🚀 Future Focus
 
-```mermaid
-flowchart LR
-A["CSV Dataset"] --> B["Data Loader"]
-B --> C["Schema Validator"]
-C -->|No| D["DataValidationError"]
-C -->|Yes| E["Continue to EDA"]
-F["Pytest"] --> |Tests| B
-F["Pytest"] --> |Tests| C
-subgraph ML["Machine Learning"]
-  G["Linear Regression (From Scratch)"]
-end
-subgraph Math["Mathematics Fundamentals"]
-  H["Vector and Matrices"]
-end
+Deep Learning, PyTorch, and advanced Machine Learning Engineering projects.
 
-```
-
-## 🎯 Objective
-
-My goal is to develop a strong understanding of how Machine Learning and Deep Learning algorithms work internally, from mathematical foundations to practical implementations.
-
-For each algorithm, I aim to:
-
-1. Understand the underlying mathematical concepts and equations.
-2. Derive important formulas and understand their reasoning.
-3. Implement the algorithm from scratch using Python and NumPy.
-4. Implement the same algorithm using established libraries such as Scikit-learn or PyTorch, where appropriate.
-5. Compare implementations, evaluate results, and document key findings.
-
-## 📚 Repository Structure
-
-### 1. Mathematics Fundamentals
-
-Mathematical foundations explored through manual calculations, Python implementations, and NumPy verification.
-
-**Topics include:**
-
-- Vectors and matrices
-- Matrix multiplication and transpose
-- Dot product and vector norms
-- Derivatives and partial derivatives
-- Chain rule
-- Logarithms
-- Additional mathematical concepts as required
-
-📂 [Explore Mathematics Fundamentals ](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main/math-fundamentals)
-
-### 2. Machine Learning Algorithms
-
-Implementing Machine Learning algorithms from scratch to understand their internal mechanics, followed by implementations using Scikit-learn.
-
-| Algorithm | From Scratch | Scikit-learn |
-|---|---|---|
-| Linear Regression | ✅ Completed | ✅ Completed |
-| Logistic Regression | 🔜 Planned | 🔜 Planned |
-| Decision Trees | 🔜 Planned | 🔜 Planned |
-| K-Nearest Neighbours | 🔜 Planned | 🔜 Planned |
-
-📂 [Explore Machine Learning](https://github.com/UUbaidd/ml-foundations-from-sratch/tree/main)
-
-### 3. Deep Learning
-
-Exploring neural networks and deep learning architectures, starting with NumPy implementations and progressing to frameworks such as PyTorch.
-
-Topics and implementations will be added as learning progresses.
-
-## 🛠️ Learning Methodology
-
-### Mathematical Foundations
-
-1. Study the mathematical concept.
-2. Derive equations and solve exercises manually.
-3. Implement mathematical operations using Python.
-4. Verify results with NumPy where applicable.
-5. Explore different examples to strengthen understanding.
-
-### Algorithm Development
-
-1. Understand the problem and algorithm.
-2. Study the mathematical foundations.
-3. Implement the algorithm from scratch.
-4. Test and evaluate the implementation.
-5. Implement the same algorithm using an established library.
-6. Compare results and document observations.
-
-## 💻 Technologies
-
-**Currently used:**
-
-- Python
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-- Scikit-learn
-- PyTorch
-
-Additional tools and libraries will be introduced as the repository develops.
-
-## 🚀 Progress
-
-This repository is an ongoing record of my Machine Learning engineering learning journey.
-
-**Current focus:** Building a strong foundation in Machine Learning by understanding and implementing algorithms from scratch before progressing to established libraries and more advanced techniques.
-
-Each algorithm will be added as it is developed, tested, and documented.
+This repository is an ongoing record of my progress in building a deeper understanding of Machine Learning, from mathematical foundations to practical implementation.
