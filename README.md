@@ -120,6 +120,7 @@ flowchart LR
     subgraph MATH["Mathematics Fundamentals"]
         H["Vectors & Matrices"]
         I["Eigenvalues & Eigenvectors"]
+        J["PCA"]
     end
 ```
 
