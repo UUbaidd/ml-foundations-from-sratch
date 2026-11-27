@@ -104,7 +104,7 @@ Each project contains its own implementation and, where available, detailed READ
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
+flowchart ML
     A["CSV Dataset"] --> B["Data Loader"]
     B --> C{"Schema Valid?"}
     C -->|No| D["DataValidationError"]
@@ -121,6 +121,9 @@ flowchart LR
         H["Vectors & Matrices"]
         I["Eigenvalues & Eigenvectors"]
         J["PCA"]
+    end
+    subgraph OOP["OOP"]
+        K["Batches & Generators"]
     end
 ```
 
